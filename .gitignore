@@ -26,10 +26,10 @@ token
 *.pem
 
 # Ignore personal or machine-specific configs
-init.sh
-scripts/*
-termux/*
-opt/*
+# init.sh
+# scripts/*
+# termux/*
+# opt/*
 nvim/**/secrets.*
 **/config.local.*
 **/credentials.*
