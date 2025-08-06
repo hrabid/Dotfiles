@@ -7,3 +7,4 @@ GHO=$HOME/Repos/gh/others/
 
 # PATH
 export PATH="$GHDOT/bin/bin:$PATH"
+alias sdo='cd /sdcard/Obsidian/'

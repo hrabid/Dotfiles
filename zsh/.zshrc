@@ -15,8 +15,8 @@ if [[ ! ${zsh_plugins}.zsh -nt ${zsh_plugins}.txt ]]; then
 fi
 source ${zsh_plugins}.zsh
 
-source ~/.envvar.sh
-source ~/.aliases.sh 
+source ~/.variables
+source ~/.aliases 
 
 # Shell Intigrations starship
 eval "$(starship init zsh)"
