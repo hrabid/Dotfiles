@@ -24,4 +24,3 @@ eval "$(starship init zsh)"
 # Shell Intigrations fzf
 source <(fzf --zsh)
 eval "$(atuin init zsh)"
-fastfetch

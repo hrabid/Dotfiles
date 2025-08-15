@@ -36,3 +36,7 @@ alias e=exit
 ## Editor Aliases
 alias v=nvim
 alias b=bat
+alias fzb="fzf --preview 'bat --style=numbers --color=always {}'"
+
+
+
