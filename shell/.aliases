@@ -42,3 +42,4 @@ alias fzb="fzf --preview 'bat --style=numbers --color=always {}'"
 alias t=touch
 
 alias pyserver="python -m http.server"
+alias m=tldr

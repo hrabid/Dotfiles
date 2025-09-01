@@ -17,10 +17,9 @@ source ${zsh_plugins}.zsh
 
 source ~/.variables
 source ~/.aliases 
+source ~/.functions
 
-# Shell Intigrations starship
+# Shell Intigrations 
 eval "$(starship init zsh)"
-
-# Shell Intigrations fzf
 source <(fzf --zsh)
-eval "$(atuin init zsh)"
+# eval "$(atuin init zsh)"
