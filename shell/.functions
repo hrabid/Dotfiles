@@ -1,4 +1,4 @@
-
+# check if the shell is interactive 
 [[ $- != *i* ]] && return
 
 # Enable Bash bash_completion 
@@ -7,6 +7,9 @@ if [[ -f /usr/share/bash-completion/bash_completion ]]; then
 elif [[ -f /etc/bash_completion ]]; then
     source /etc/bash_completion
 fi
+bind "set completion-ignore-case on" 2>/dev/null
+bind "set show-all-if-ambiguous on" 2>/dev/null
+
 
 # XDG Base Directory Specification
 export XDG_CONFIG_HOME="$HOME/.config"
@@ -39,6 +42,7 @@ myip() {
 
 set -o vi
 export MANPAGER='nvim +Man!'
+
 
 nf() {
     fzf --preview 'bat --style=numbers --color=always {} | head -n 100' \
@@ -139,8 +143,4 @@ case "$DISTRO" in
 esac
 
 # Fetching system info 
-command -v fastfetch >/dev/null 2>&1 && fastfetch
-bind "set completion-ignore-case on" 2>/dev/null
-bind "set show-all-if-ambiguous on" 2>/dev/null
-
-
+#command -v fastfetch >/dev/null 2>&1 && fastfetch
