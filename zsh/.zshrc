@@ -23,3 +23,4 @@ source ~/.functions
 eval "$(starship init zsh)"
 source <(fzf --zsh)
 # eval "$(atuin init zsh)"
+source <(hugo completion zsh)
