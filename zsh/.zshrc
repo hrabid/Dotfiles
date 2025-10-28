@@ -24,3 +24,6 @@ eval "$(starship init zsh)"
 source <(fzf --zsh)
 # eval "$(atuin init zsh)"
 source <(hugo completion zsh)
+
+# Added by app (https://github.com/hkdb/app) installation
+source /data/data/com.termux/files/home/.config/app/.app_profile
